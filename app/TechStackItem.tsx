@@ -13,7 +13,9 @@ export default function TechStackItem(props: TechStackItem) {
             }`}
         >
             <Image
-                className="filter grayscale hover:grayscale-0 transition-all duration-500 ease-in-out m-3 select-none"
+                className={`filter grayscale ${
+                    props.isHovered === props.name && "grayscale-0"
+                } transition-all duration-500 ease-in-out m-3 select-none`}
                 src={props.icon}
                 width={60}
                 height={60}
