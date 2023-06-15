@@ -1,11 +1,9 @@
-import { techStack, techStack2 } from "../techstack";
-import TechStackComp from "../TechStackComp";
-import TechStackItem from "../TechStackItem";
+import TechStackComp from "./TechStackComp";
 
 export default function page() {
     return (
-        <main className="flex w-10/12 min-h-screen flex-col items-center justify-center py-6 m-auto">
-            <div className="w-10/12 py-10 bg-gray-900 rounded-md border-2 border-cyan-500">
+        <main className="flex w-10/12 min-h-screen flex-col items-center  justify-center py-6 m-auto">
+            <div className="w-10/12 py-10 bg-gray-900 rounded-md border-2 mt-20 border-cyan-500">
                 <div className="mx-72">
                     <h2 className="text-2xl mb-10">About Myself</h2>
 

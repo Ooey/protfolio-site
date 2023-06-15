@@ -1,6 +1,6 @@
 "use client";
 
-import TechStackItem from "@/interfaces/interfaces";
+import { TechStackItem } from "@/interfaces/interfaces";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -28,8 +28,8 @@ export default function TechStackItem(props: TechStackItem) {
                     !props.orientation ? "right-full" : "left-full"
                 } -bottom-1/2 bg-slate-800 rounded-md border-2 border-cyan-500 ${
                     props.isHovered === props.name
-                        ? "opacity-100 "
-                        : "opacity-0"
+                        ? "opacity-100 z-10 "
+                        : "opacity-0 z-0"
                 } transition-opacity w-96 `}
             >
                 <h3 className="text-xl font-medium">{props.name}</h3>
@@ -44,7 +44,7 @@ export default function TechStackItem(props: TechStackItem) {
                                 <Link
                                     key={url}
                                     href={url}
-                                    className="p-1 bg-cyan-600 rounded-md w-max h-max m-1"
+                                    className="p-1 bg-cyan-600 rounded-md w-max h-max m-1 drop-shadow-lg"
                                 >
                                     {url.split("/")[2]}
                                 </Link>

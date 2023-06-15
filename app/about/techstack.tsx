@@ -32,6 +32,7 @@ const techStack = [
             "/projects/765forums",
             "/projects/calendarapp",
             "/projects/equTree",
+            "/projects/moped",
         ],
     },
     {
@@ -39,14 +40,14 @@ const techStack = [
         icon: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/tailwindcss/tailwindcss-plain.svg",
         description:
             "I have been using Tailwind in my personal projects since 2023.",
-        projectUrls: ["/projects/this-site"],
+        projectUrls: ["/projects/my-portfolio-website"],
     },
     {
         name: "Next.js",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
         description:
             "I started using Next.js since it released its 13 version for my own projects. It feels very cutting-edge.",
-        projectUrls: ["/projects/this-site"],
+        projectUrls: ["/projects/my-portfolio-website"],
     },
 ];
 
